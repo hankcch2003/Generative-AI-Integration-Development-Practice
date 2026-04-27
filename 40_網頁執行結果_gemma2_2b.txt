@@ -1,0 +1,32 @@
+--- 模型：gemma2:2b ---
+問題 1：台北 101 有多高？請用一句話回答。
+回答：台北 101 高 **508.2 公尺**。 
+
+
+問題 2：把『I'm feeling under the weather today.』翻譯成道地的台灣繁體中文。
+回答：There are a few ways to translate "I'm feeling under the weather today" into Taiwanese Mandarin, depending on the nuance you want to convey:
+
+**Formal:**
+
+* **「今天有點不舒服。」 (Jīntiān yǒu yīdiòbù fù chéng.)** - This is a direct translation that emphasizes being slightly unwell.
+* **「我今天身體不太舒服。」 (Wǒ jīntiān shēn bǐ bù tài shūhé.)** - This translates to "I'm not feeling well physically today."
+
+**Informal:**
+
+* **「今天不舒服。」 (Jīntiān bù fáng.)** -  This is a more colloquial way of saying "feeling under the weather" and is used when referring to general unwellness.
+
+
+**Other Considerations:**
+
+* **Context:** Knowing the specific situation can help determine the most appropriate translation. If talking about a cold or flu, using terms like "感冒 (gǎn mà)" or "發燒 (fā shāo)" might be more fitting. 
+* **Tone:** Taiwanese Mandarin often uses euphemisms when referring to illness. For example, instead of saying you're "sick", you could say "不舒服" or "身體不太舒服".
+
+
+Ultimately, the best translation will depend on the specific situation and your desired level of formality.
+
+問題 3：請用 50 字以內解釋什麼是『區塊鏈』。
+回答：區塊鏈是一種分布式、不可篡改的數據記錄系統。它記錄交易和信息，並透過加密技術確保安全和透明度。
+
+**簡單來說:** 就像一張永恆的 ledger ( ledgers)，可以讓所有人看到所有交易。 
+
+
