@@ -1,0 +1,16 @@
+ER MODEL（實體關聯模型 / Entity Relationship Model）
+
+market_data
+- time series market dataset / 市場時間序列資料
+
+stock_info
+- stock master table / 股票主資料表
+
+stock_price
+- stock price records / 股票價格紀錄
+
+Relationships:
+stock_info (1) ─── (N) stock_price
+
+Foreign Key Constraint:
+stock_price.stock_id references stock_info.stock_id
