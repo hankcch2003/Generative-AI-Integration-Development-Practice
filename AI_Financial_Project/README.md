@@ -1,6 +1,6 @@
 # AI Financial Analytics Projects
 
-本專案整合兩個金融數據分析子系統，  
+本專案整合三個金融數據分析子系統，  
 結合區塊鏈與股票市場分析，並導入機器學習與 AI 模型，  
 用於投資決策輔助與風險評估。
 
@@ -41,7 +41,7 @@
 
 ---
 
-# 📊 Project 1: Blockchain AI Financial System
+# 📊 Project 1: blockchain_ai.py
 
 ## 專案說明
 
@@ -59,7 +59,7 @@
 
 ---
 
-# 📈 Project 2: Stock Risk Analysis Dashboard
+# 📈 Project 2: stock_risk.py
 
 ## 專案說明
 
@@ -73,6 +73,141 @@
 - ⚠️ 風險分類（High / Medium / Low）
 - 📉 風險 vs 報酬視覺化
 - 📈 Sharpe Ratio（投資效率指標）
+
+---
+
+# 📊 Project 3: financial_ai_system.py
+
+## 專案說明
+
+本系統結合真實 CSV 金融資料分析、技術指標計算、機器學習預測與 AI 大型語言模型（LLM），  
+建立一個互動式金融數據分析平台（Streamlit Dashboard），用於投資分析與決策輔助。
+
+---
+
+## 功能模組
+
+### 📂 數據輸入
+- CSV 檔案上傳
+- 即時資料讀取與顯示
+
+---
+
+### 📈 技術分析
+- 報酬率計算（Return）
+- 移動平均（MA20）
+- 波動率分析（Volatility）
+
+---
+
+### 📉 視覺化分析
+- 價格走勢圖
+- 報酬率分布圖
+
+---
+
+### 🤖 機器學習預測
+- 線性回歸模型
+- 價格預測
+- RMSE 誤差評估
+
+---
+
+### 🧠 AI 投資分析
+- Ollama LLM 串接
+- 自動生成投資建議
+- 風險評估與策略分析
+
+---
+
+## 🗄️ Database Design（資料庫設計）
+
+本 SQL 模組隸屬於 Project 3，  
+用於展示金融資料結構規劃，並支援分析系統運作。
+
+---
+
+### 📊 Tables
+
+#### 📌 stock_info（股票基本資料表）
+- stock_id：股票代碼（Primary Key）
+- stock_name：股票名稱
+
+---
+
+#### 📌 stock_price（股票價格資料表）
+- id：資料編號（Primary Key）
+- stock_id：股票代碼（Foreign Key）
+- price：股票價格
+
+---
+
+#### 📌 market_data（市場數據示意表）
+- date：交易日期
+- price：市場價格
+- return：報酬率
+
+---
+
+### 🔗 Relationships
+
+- stock_info (1) ─── (N) stock_price  
+- stock_price.stock_id → stock_info.stock_id
+
+---
+
+## 🧩 ER Model（實體關聯模型）
+
+### 📊 Entities
+
+- market_data  
+  市場時間序列資料（Time Series Market Dataset）
+
+- stock_info  
+  股票主資料表（Stock Master Table）
+
+- stock_price  
+  股票價格紀錄（Stock Price Records）
+
+---
+
+### 🔗 Relationships
+
+- stock_info (1) ─── (N) stock_price  
+
+---
+
+### 🔑 Foreign Key Constraint
+
+- stock_price.stock_id → stock_info.stock_id
+
+---
+
+## 🧠 Design Concept
+
+- 🗄️ SQL 層：資料結構設計與關聯規劃
+- 🐍 Python 層：數據分析與 AI 預測
+- 🖥️ Streamlit 層：視覺化介面
+
+---
+
+## 📌 資料來源說明
+
+SQL 與 Python 使用不同資料來源：
+
+- 🗄️ SQL 用於資料結構設計與關聯展示  
+- 🐍 Python 使用 CSV / 模擬資料進行即時分析與模型訓練  
+
+👉 兩者為分層架構設計，並非直接共享同一份資料
+
+---
+
+## 📌 系統特色
+
+- CSV 即時上傳分析
+- 技術指標 + ML + AI 整合
+- 互動式金融儀表板
+- 模組化系統設計
 
 ---
 
